@@ -1,9 +1,10 @@
 
 <?php
-        $hname ='134.119.205.13';
-        $uname = 'abtopin_hms';
-        $pass = 'Temphms1@';
-        $db = 'abtopin_hms';
+        
+        $hname ='xxx.xxx.xxx.xx';
+        $uname = 'xxxxx';
+        $pass = 'xxxxxxx';
+        $db = 'xxxxxx';
 $conn = mysqli_connect($hname, $uname, $pass, $db);
 if(!$conn){
     die("Cannot Connect to Database".mysqli_connect_error());
